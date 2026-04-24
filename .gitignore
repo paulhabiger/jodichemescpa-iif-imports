@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+
+# Generated IIF output files — never commit; test fixtures are explicitly allowed
+*.iif
+!iif_generator/tests/fixtures/*.iif
+
+# Client data — never commit
+clients/
+
+# IDE / local tooling
+.cursor/
+.vscode/
+*.swp
+.claude/
